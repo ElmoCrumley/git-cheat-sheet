@@ -51,7 +51,7 @@ ssh -T git@github.com - *проверка ключа (проверка ключ�
 Repositories / SSH / скопировать git@github.com:
 
 remote - *привязка удалённого репозитория к локальному. Пример:* $ git remote add origin git@github.com:
-
+$ git remote -v
 
 
 
