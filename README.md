@@ -29,7 +29,7 @@ rm .git - *разгитить папку. Она перестанеть быть
      -r - *позволяет удалять папки вместе с их содержимым*
      -f - *программа не задаст уточняющие вопросы*
 status - *проверка состояния репозитория. Пример:* $ git status
-add - *передача текущих изменений в файл(ах)е в список изменений. Пример:* $ add -all; $ add file.txt
+add - *передача текущих изменений в файл(ах)е в список изменений. Пример:* $ git add -all; $ git add file.txt
 commit - *создание сущности из списка изменений в файл(ах)е (флаг -m оставляет сообщение). Пример:* $ git commit -m 'Мой первый коммит!'
 log - *просмотр списка commit-ов (журнала записей). Пример:* $ git log
 
@@ -48,9 +48,9 @@ Settings / SSH and GPG keys /  New SSH key
 
 ssh -T git@github.com - *проверка ключа (проверка ключа сайта GitHub "SHA256" по ссылке:* [ссылка](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints)
 
+Repositories / SSH / скопировать git@github.com:
 
-
-
+remote - *привязка удалённого репозитория к локальному. Пример:* $ git remote add origin git@github.com:
 
 
 
