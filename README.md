@@ -56,6 +56,30 @@ push - *далее можно испльзовать просто git push. Пр
 Если выход не произошёл автоматически, нажать Q.
 Файл HEAD - указывает на коммит, который сделан последним.
 
+Статусы:
+–untracked (англ. «неотслеживаемый»)
+–staged (англ. «подготовленный»)
+–tracked (англ. «отслеживаемый»)
+–modified (англ. «изменённый»)
+
+Жизненный цикл файла в Git
+ untracked
+ + git add --> staged + tracked
+ + modified --> staged + tracked + modified
+ + git add --> staged + tracked
+ + commit --> tracked
+ + modified --> tracked + modified
+ + git add --> staged + tracked
+ + commit --> tracked
+ ...
+
+
+
+
+
+
+
+
 
 
 
